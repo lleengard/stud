@@ -1,0 +1,73 @@
+body, h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+    }
+
+.headcontainer{
+    height: 500px;
+    width: 100%;
+    background: linear-gradient(
+      0deg,
+      #d91a9b,
+      #9c1bb4,
+      #5b21b6,
+      #3159e1,
+      #43bfc7,
+      #78d85a
+    );
+}
+.headnavbarcontainer{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 100%; 
+    padding-top: 30px;
+    /* position: fixed; */
+}
+.navbarlink{
+    text-decoration: none;
+    color: rgb(52, 63, 82);
+    font-family: Urbanist;
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.navbarlogo{
+    margin-left: 75px;
+    margin-right: 75px;
+}
+.headerContent{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+.title{
+color: rgb(255, 255, 255);
+  font-family: Urbanist;
+  font-size: 60px;
+  font-weight: 600;
+  text-align: center;
+  max-width: 650px;
+  width: 100%;    
+}
+.subtitle{
+    color: rgb(255, 255, 255);
+  font-family: Urbanist;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+  max-width: 530px;
+  width: 100%;
+  margin-top: 20px;
+}
+.buttonStyle{
+border: 2px solid rgb(255, 255, 255);
+border-radius: 8px;
+background: rgb(255, 255, 255);
+padding: 16px 20px;
+cursor: pointer;
+}
